@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AWS ARN Redirector",
+  "version": "1.0",
+  "description": "Redirect to AWS console using ARN.",
+  "permissions": ["tabs", "storage"],
+  "omnibox": { "keyword": "arn" },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
